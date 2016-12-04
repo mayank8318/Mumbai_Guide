@@ -1,0 +1,144 @@
+@font-face {
+    font-family: arcd;
+    src: url(Fonts/ArchitectsDaughter.ttf);
+}
+@font-face{
+	font-family: comfy;
+    src: url(Fonts/Comfortaa-Regular.ttf);
+}
+@font-face{
+	font-family: lobster;
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+body {
+background-color: #9c9f84;
+margin: 0px;
+font-family: Verdana, Georgia, serif;
+font-size: 14px;
+}
+#heading{
+	font-size:60px;	
+	text-align:center;
+	font-family:arcd,Arial;	
+	color:white;	
+	background-image:url("cloudy.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin: 10px;
+	height: 90px;
+	border-radius: 5px;
+	line-height:90px;
+}
+
+#navbar{
+	background-color: #000;
+	height:30px;
+	font-size:130%;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#navbar ul   {
+         
+padding: 5px;
+list-style-type: none;
+text-align: center;
+background-color: #000;
+margin: 10px;
+border-radius: 5px;
+ 
+}
+ 
+#navbar ul  li  {
+         
+display: inline;
+ 
+}
+ 
+#navbar ul li a {
+       
+text-decoration: none;
+font-family:Arial;
+padding: .2em 1em;
+color: #fff;
+background-color: #000;
+}
+ 
+#navbar ul li a:hover {
+color: #000;
+background-color: #fff;
+}
+
+h2{
+	font-size: 180%;
+	padding-bottom:7px;
+	border-bottom:1px solid black;	
+	font-family:Comic Sans MS;
+}
+
+.main {
+	background-color: #e5e4d7;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 120%;
+	border-radius:5px;
+	color:black;
+	line-height:30px;
+	font-family:Tahoma;
+	font-weight:bolder;
+}
+h3{
+	text-align:center;
+	color:black;
+	font-size:190%;
+	border-top:2px solid black;
+	padding-top:6px;
+	font-family:lobster;
+	
+}
+
+ h3 a:link{
+	 text-decoration:none;	 
+	 color:black;
+	 text-align:center;
+ }
+ 
+ h3 a:hover{
+	 text-decoration:none;
+	 font-size:105%;;
+	 color:#0023FF;
+	 text-align:center;
+	 
+ }
+ 
+ .main p::first-letter{
+	font-size:130%;
+	font-weight:bolder;
+	}
+  
+ img{
+	 display:block;
+	 clear:left;
+	 height:30%;
+	 width:30%;
+	 float:left;
+	 padding-bottom:10px;
+	 padding-right:10px;
+	 opacity:0.8;
+	 border:0px solid black;
+	 border-radius:5px 5px 5px 5px;
+	 }
+img:hover{
+	opacity:1.0;
+	transition:opacity 0.3s ease-in-out;
+}
+p{
+	font-family:comfy;
+	font-size:105%;
+}

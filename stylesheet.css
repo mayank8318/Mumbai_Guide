@@ -1,0 +1,123 @@
+@font-face {
+    font-family: arcd;
+    src: url(Fonts/ArchitectsDaughter.ttf);
+	
+}
+@font-face{
+	font-family: comfy;
+    src: url(Fonts/Comfortaa-Regular.ttf);
+}
+@font-face{
+	font-family: lobster;
+    src: url(Fonts/Lobster-Regular.ttf);
+	
+}
+body {
+background-color: #9c9f84;
+margin: 0px;
+font-family: Verdana, Georgia, serif;
+font-size: 14px;
+}
+#heading{
+	font-size:60px;	
+	text-align:center;
+	font-family:arcd, Arial;	
+	color:white;	
+	background-image:url("cloudy.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin: 10px;
+	height: 90px;
+	border-radius: 5px;
+	line-height:90px;
+}
+
+#navbar{
+	background-color: #000;
+	height:30px;
+	font-size:130%;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#navbar ul   {
+         
+padding: 5px;
+list-style-type: none;
+text-align: center;
+background-color: #000;
+margin: 10px;
+border-radius: 5px;
+ 
+}
+ 
+#navbar ul  li  {
+         
+display: inline;
+ 
+}
+ 
+#navbar ul li a {
+       
+text-decoration: none;
+font-family:Arial;
+padding: .2em 1em;
+color: #fff;
+background-color: #000;
+}
+ 
+#navbar ul li a:hover {
+
+color: #000;
+background-color: #fff;
+}
+
+.main img{
+	float:left;
+	margin-bottom:100%;
+	padding-right:20px;
+	border-radius:5px;
+	
+}
+.main {
+	background-image:url("Mumbai-home2.jpg");
+	/*background-color: #e5e4d7;*/
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 130%;
+	border-radius:5px;
+	color:black;
+	line-height:30px;
+	font-family:Tahoma;
+	
+}
+
+.main p::first-letter{
+	font-size:130%;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.main h2{
+	font-size: 180%;
+	padding-bottom:7px;
+	border-bottom:1px solid #0CFE00;	
+	font-family:Comic Sans MS;
+}
+
+.main h5{
+	font-size: 140%;
+	padding-bottom:7px;
+	
+}
+
+.main p{
+	color:white;
+	font-family:comfy;
+}
